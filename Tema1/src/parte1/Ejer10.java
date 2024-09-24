@@ -21,7 +21,7 @@ public class Ejer10 {
 		reader.nextLine();
 		
 		// 3º Comprobamos si es par
-		boolean par  = numero % 2 == 0;
+		boolean par = numero % 2 == 0;
 		
 		// 4º Mostramos el resultado
 		System.out.println(par);
