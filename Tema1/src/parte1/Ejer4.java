@@ -18,9 +18,6 @@ public class Ejer4 {
 		// 2º Leemos la nota introducida en la consola.
 		nota1 = lectura.nextDouble();
 		
-		// Reiniciamos el Scanner
-		lectura.nextLine();
-		
 		// 3º Pedimos la segunda nota al usuario
 		System.out.println("Introduzca la segunda nota");
 		

@@ -24,9 +24,6 @@ public class Ejer8 {
 		// 4º Leemos la edad introducido en consola
 		edad = reader.nextInt();
 		
-		// Reiniciamos el Scanner
-		reader.nextLine();
-		
 		// 7º Mostramos los resultados
 		System.out.println("Hola " + nombre +", tienes " + edad +  " años, ¡qué mayor eres!");
 		

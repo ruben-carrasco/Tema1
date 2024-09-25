@@ -8,6 +8,10 @@ public class Ejer6 {
 		// Declaramos las variables
 		double num1;
 		double num2;
+		double suma;
+		double resta;
+		double multiplicacion;
+		double division;
 		
 		// Creamos el Scanner
 		Scanner reader = new Scanner(System.in);
@@ -18,9 +22,6 @@ public class Ejer6 {
 		// 2º Leemos el número introducido en consola
 		num1 = reader.nextDouble();	
 		
-		// Reiniciamos el Scanner
-		reader.nextLine();
-		
 		// 3º Pedimos el segundo número al usuario
 		System.out.println("Introduzca el segundo número: ");
 		
@@ -29,16 +30,16 @@ public class Ejer6 {
 		
 		// 5º Realizamos las operaciones con los números
 		// Suma
-		double suma = num1 + num2;
+		suma = num1 + num2;
 		
 		// Resta
-		double resta = num1 - num2;
+		resta = num1 - num2;
 		
 		// Multiplicacion
-		double multiplicacion = num1 * num2;
+		multiplicacion = num1 * num2;
 		
 		// Division
-		double division = num1 / num2;
+		division = num1 / num2;
 		
 		// Mostramos los resultados
 		System.out.println("El resultado de la suma es: " + suma);

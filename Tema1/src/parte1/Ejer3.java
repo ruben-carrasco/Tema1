@@ -19,9 +19,6 @@ public class Ejer3 {
 		// 2º Leemos el número introducido en consola
 		añoActual = lectura.nextInt();
 		
-		// Reiniciamos el Scanner
-		lectura.nextLine();
-		
 		// 3º Pedimos el año de nacimiento al usuario
 		System.out.println("Introduzca su año de nacimiento");
 		
