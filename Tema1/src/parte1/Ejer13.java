@@ -33,6 +33,9 @@ public class Ejer13 {
 		
 		// Mostramos el resultado y calculamos en el syso si puede salir a la calle
 		System.out.println("Permiso para salir: " + (library || (!rain && task)));
+		
+		// Cerramos el Scanner
+		reader.close();
 
 	}
 
