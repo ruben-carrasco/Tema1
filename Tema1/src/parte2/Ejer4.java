@@ -8,7 +8,6 @@ public class Ejer4 {
 		double b;
 		double c;
 		double x;
-		double y;
 		
 		// Creamos el Scanner
 		Scanner reader = new Scanner(System.in);
@@ -30,7 +29,7 @@ public class Ejer4 {
 		x = reader.nextDouble();		
 		
 		// Mostramos y calculamos el resultado
-		System.out.println("El resultado de y=ax2+bx+c es: " + (y = a * (x * x) + b * x + c));
+		System.out.println("El resultado de y=ax2+bx+c es: " + (a * (x * x) + b * x + c));
 		
 		
 		//Cerramos el Scanner

@@ -8,7 +8,7 @@ public class Ejer5 {
 		int segundos;
 		int minutos;
 		int horas;
-		
+		int segundosFinal;
 		
 		// Creamos el Scanner
 		Scanner reader = new Scanner(System.in);
@@ -20,12 +20,13 @@ public class Ejer5 {
 		segundos = reader.nextInt();
 		
 		// Calculamos las conversiones
-		minutos = segundos / 60;
-		horas =  minutos / 60;
+		horas =  segundos / 3600;
+		minutos = (segundos % 3600) / 60;
+		segundosFinal = (segundos % 3600) % 60;
 		
 		
 		// Mostramos y calculamos las horas, minutos y segundos
-		System.out.println(segundos + " equivalen a " + horas + " horas o " + minutos + " minutos o " + segundos + " segundos" );
+		System.out.println("Equivalen a " + horas + " horas " + minutos + " minutos y " + segundosFinal  + " segundos" );
 		
 		// Cerramos el Scanner
 		reader.close();
